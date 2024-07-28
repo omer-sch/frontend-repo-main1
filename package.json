@@ -9,6 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "buildprod": "tsc && true || vite build && true || tsc -p tsconfig.build.json && true",
     "preview": "vite preview"
+    "prod1": "node dist/server.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
