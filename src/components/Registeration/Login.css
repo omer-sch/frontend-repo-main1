@@ -1,0 +1,69 @@
+body {
+  background-image: url(../../assets/cesar-couto-27HiryxnHJk-unsplash.jpg);
+  background-size: cover;
+  backdrop-filter: blur(3px);
+}
+
+.login-container {
+  max-width: 450px;
+  margin: 50 auto;
+  margin-top: 70px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  font-size: 30px;
+  margin-bottom: 70px;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #528ac2;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 27%;
+  height: 40px;
+  margin-left: 130px;
+  background-color: #fdffff;
+  color: #6daee4;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login-button:hover {
+  background-color: #7fb8f4;
+}
+
+.google {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 60px;
+}
+
+.register-link {
+  display: block;
+  text-align: center;
+  margin-top: 90px;
+  margin-left: -30px;
+  font-size: 16px;
+  color: #ebeaea;
+
+}
+
+.register-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}

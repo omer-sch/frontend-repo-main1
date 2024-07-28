@@ -1,0 +1,60 @@
+.my-post-container {
+  margin: 20px 10px; /* Margin 20px top and bottom, 10px left and right */
+  padding: 20px; /* Add padding for better spacing inside the container */
+  background-color: aliceblue;
+  font-family: Arial, sans-serif; /* Specify a fallback font */
+  border-radius: 10px;
+  max-width: 800px;
+  height: 240px !important;
+  margin-left: 260px;
+  margin-top: 50px;
+}
+
+.my-post-details {
+  margin-left: 10px; /* Add margin to the left for the details */
+}
+
+.my-post-details p {
+  margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-form .input-txt {
+  margin-bottom: 5px;
+}
+
+.my-post-container button {
+  margin-right: 10px;
+}
+
+.my-post-container .my-post-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.my-post-container .edit-buttons {
+  margin-top: 10px;
+}
+
+.my-post-container .edit-buttons button {
+  margin-right: 10px;
+}
+.names{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.my-post-title{
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.my-post-text{
+  margin-left: 20px;
+  font-size: 20px;
+}

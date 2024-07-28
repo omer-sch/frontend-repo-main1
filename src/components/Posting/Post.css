@@ -1,0 +1,74 @@
+.post-container {
+    background-color: #f0fafa;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    flex: 0 0 calc(35% - 5px); 
+    max-width: calc(35% - 50px); 
+    height: 610px !important;
+    display: inline-block;
+    vertical-align: top; 
+    margin-top: 20px;
+    position: relative; /* Add position relative */
+}
+
+.post-title {
+    font-style: italic;
+    font-size: 26px;
+    margin-bottom: -30px;
+    color: #007bff;
+}
+
+/* .post-owner {
+    display: ;
+} */
+
+.post-message {
+    color: rgb(28, 130, 240) !important;
+    font-size: 15px !important;
+    margin-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+.post-image-container {
+    max-height: 100px; 
+    overflow: hidden;
+}
+
+
+.post-image {
+    width: 100%; 
+    height: auto; 
+    margin-top: -5px;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 10px; /* Adjust bottom spacing */
+    left: 0; /* Align to left */
+    width: 100%; /* Take full width */
+    text-align: center; /* Center the buttons horizontally */
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.btn {
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.comment-input{
+    width: 92%;
+    height: 50px;
+    margin-bottom: 5px;
+    border: 1px solid #528ac2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.comment-count {
+    font-size: 14px;
+    color: #666; /* Adjust color as needed */
+    margin-top: 2px; /* Adjust spacing as needed */
+  }
+  
