@@ -1,5 +1,5 @@
 Google_APP_API_KEY=AIzaSyAc15uVFtPpV0T8gBJIJm8gmMnfiSg3alA
 VITE_GOOGLE_CLIENT_ID= 786338921165-6cliejcn0c0mrfp7n8ij1je0pkboc1ek.apps.googleusercontent.com
-FRONT_PORT=5173
+FRONT_PORT=443
 VITE_PORT=3000
 VITE_DOMAIN=localhost
