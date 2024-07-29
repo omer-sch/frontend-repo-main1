@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { PostDescription } from '../../services/posts-service';
+import { createPost, PostDescription } from '../../services/posts-service';
 import './AddPost.css'; // Import the CSS file
+import { uploadPhoto } from '../../services/file-service';
 
 const AddPost: React.FC = () => {
   const [title, setTitle] = useState('');
@@ -26,17 +27,18 @@ const AddPost: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+   // uploadPhoto(postImg as File);
     const postData: PostDescription = {
       title,
       message,
       postImg: typeof postImg === 'string' ? postImg : URL.createObjectURL(postImg)
     };
 
-    try {
-      savePostToLocalStorage(postData);
 
-  //    await createPost(postData);
+    try {
+     // savePostToLocalStorage(postData);
+
+     await createPost(postData);
 
       setTitle('');
       setMessage('');
