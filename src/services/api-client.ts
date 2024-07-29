@@ -7,7 +7,7 @@ export { CanceledError };
 //   withCredentials: true,
 // });
 const port = import.meta.env.VITE_BACKEND_URL || '3000';
-const domain = import.meta.env.VITE_DOMAIN || 'localhost';
+const domain = import.meta.env.VITE_DOMAIN; //|| 'localhost';
 
 // Construct the base URL
 const baseURL = `http://${domain}:${port}`;
