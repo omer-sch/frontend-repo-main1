@@ -10,8 +10,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // SSL certificate and key
 const options = {
-    key: fs.readFileSync("../../myprefix-client-key.pem"),
-    cert: fs.readFileSync("../../myprefix-client-cert.pem")
+    key: fs.readFileSync("../client-key.pem"),
+    cert: fs.readFileSync("../client-cert.pem")
 };
 // Serve static files from the Vite build directory
 app.use(cors());
