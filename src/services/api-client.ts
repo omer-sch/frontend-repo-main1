@@ -6,7 +6,7 @@ export { CanceledError };
 //   baseURL: "http://localhost:3000",
 //   withCredentials: true,
 // });
-const port = import.meta.env.VITE_PORT || '3000';
+const port = import.meta.env.VITE_BACKEND_URL || '3000';
 const domain = import.meta.env.VITE_DOMAIN || 'localhost';
 
 // Construct the base URL
