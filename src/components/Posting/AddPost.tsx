@@ -38,7 +38,7 @@ const AddPost: React.FC = () => {
     try {
      // savePostToLocalStorage(postData);
 
-     await createPost(postData);
+      await createPost(postData);
 
       setTitle('');
       setMessage('');
