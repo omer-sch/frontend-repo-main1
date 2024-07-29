@@ -10,7 +10,7 @@ const port = import.meta.env.VITE_BACKEND_URL || '3000';
 const domain = import.meta.env.VITE_DOMAIN || 'localhost';
 
 // Construct the base URL
-const baseURL = `http://${domain}:${port}`;
+const baseURL = `https://${domain}:${port}`;
 
 const apiClient = axios.create({
   baseURL: baseURL,
