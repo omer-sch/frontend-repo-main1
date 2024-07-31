@@ -27,11 +27,11 @@ const AddPost: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const url = await uploadPhoto(postImg as File);
+   // const url = await uploadPhoto(postImg as File);
     const postData: PostDescription = {
       title,
       message,
-      postImg : url
+      postImg: typeof postImg === 'string' ? postImg : URL.createObjectURL(postImg)
     };
 
 
